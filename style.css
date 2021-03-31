@@ -1,5 +1,5 @@
 :root {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.2;
   --background-color: #f3f3f3;
   --main-text-color: #444;
@@ -13,7 +13,7 @@
 }
 
 html {
-  max-width: 35rem;
+  max-width: 45ch;
   margin: 0 auto;
   border: 1px solid crimson;
   /* border-radius: 2px; */
@@ -21,6 +21,7 @@ html {
 
 body {
   font-family: "Times New Roman", Times, serif;
+  padding: 1rem;
 }
 
 /* Ensure HTML5 elements look right in older browsers */
@@ -68,3 +69,4 @@ img {
 body > section {
   min-height: 12rem;
 }
+
