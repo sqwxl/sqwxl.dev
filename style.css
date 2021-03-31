@@ -13,13 +13,13 @@
 }
 
 html {
-  max-width: 45ch;
-  margin: 0 auto;
-  border: 1px solid crimson;
   /* border-radius: 2px; */
 }
 
 body {
+  max-width: 60ch;
+  margin: 0 auto;
+  border: 1px solid crimson;
   font-family: "Times New Roman", Times, serif;
   padding: 1rem;
 }
