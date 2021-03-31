@@ -1,0 +1,70 @@
+:root {
+  font-size: 1em;
+  line-height: 1.2;
+  --background-color: #f3f3f3;
+  --main-text-color: #444;
+
+  --link-color: crimson;
+  --link-color-visited: rgb(173, 20, 50);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 35rem;
+  margin: 0 auto;
+  border: 1px solid crimson;
+  /* border-radius: 2px; */
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Ensure HTML5 elements look right in older browsers */
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figure {
+  display: block;
+}
+
+.header-logo {
+  width: 4rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Links */
+
+a {
+  color: var(--link-color);
+}
+
+a:visited,
+a:hover {
+  color: var(--link-color-visited);
+}
+
+a[href*="http"] {
+  background: url("./assets/external-link.png") no-repeat 100% 0;
+  background-size: 0.75rem 0.75rem;
+  padding-right: 0.9rem;
+}
+
+/* Images */
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+body > section {
+  min-height: 12rem;
+}
