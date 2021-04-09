@@ -1,4 +1,4 @@
-import posts from "assets/posts/*.md";
+import posts from "./blog/posts/*.md";
 
 const blog = document.querySelector("#blog");
 
