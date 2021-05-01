@@ -4,8 +4,8 @@
     "build": "parcel build index.html"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
-    "marked": "^2.0.1",
+    "cssnano": "^4.1.11",
+    "marked": "^2.0.3",
     "parcel-bundler": "^1.12.5"
   }
 }
