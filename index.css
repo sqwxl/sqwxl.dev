@@ -1,5 +1,5 @@
 :root {
-  font-size: min(max(1.3rem, 4vw), 18px);
+  font-size: min(max(1.75em, 6vw), 18px);
   line-height: 1.2;
   --background-color: #f3f3f3;
   --main-text-color: #242424;
@@ -19,7 +19,8 @@ html {
 body {
   max-width: 60ch;
   margin: 0 auto;
-  border: 1px solid crimson;
+  border-left: 1px solid crimson;
+  border-right: 1px solid crimson;
   font-family: "Times New Roman", Times, serif;
   padding: 1rem;
   color: var(--main-text-color);
@@ -51,6 +52,11 @@ body > section {
 body > section:last-of-type {
   margin-bottom: 0;
   min-height: initial;
+}
+
+/* Text */
+p {
+  line-height: 1.75;
 }
 
 /* Links */
