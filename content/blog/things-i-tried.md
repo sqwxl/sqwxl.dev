@@ -4,9 +4,9 @@ date = 2021-05-02
 draft = false
 +++
 
-I'm 33 and I've been depressed since my teens. I don't mean I've been in a constant state of feeling depressed during all those years, there have been ups and down. Heck, it's probably safe to say that, excluding sleep hours, I've probably spent more of that time feeling "OK". The reason I say I've been depressed since my teens, then, is that even in the periods when I'm "OK", I generally feel pretty "meh" and I generally don't get much enjoyment out of things. As I was explaining to my partner the other day, it's as though magic and wonder have disappeared from my life.
+I'm 33 and I've been depressed since my teens. I don't mean I've been in a constant state of feeling depressed during all those years, there have been ups and down. Heck, it's probably safe to say that, excluding sleep hours, I've probably spent more of that time feeling "OK" than time feeling like a flaming pile of turds. The reason I say I've been depressed since my teens, then, is that even in the periods when I'm "OK", I generally feel pretty "meh" and I generally don't get much enjoyment out of things. As I was explaining to my partner the other day, it's as though magic and wonder have disappeared from my life.
 
-I recently learned -- through being diagnosed with it -- that there's a medical term for this: dysthymia. From the Wikipedia [article](https://en.wikipedia.org/wiki/Dysthymia):
+Last year I learned -- through being diagnosed with it -- that there's a medical term for this: dysthymia. From the Wikipedia [article](https://en.wikipedia.org/wiki/Dysthymia):
 
 > Dysthymia, also known as persistent depressive disorder (PDD), is a mood disorder consisting of the same cognitive and physical problems as depression, but with longer-lasting symptoms.
 
