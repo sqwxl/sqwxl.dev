@@ -71,7 +71,7 @@ So without further ado, and in no particular order, here is a list of all the th
 - Talking with friends\***
 
 
-\* SSRI: Of all the items in this list, this is the only one which came as result of meeting with healthcare professionals. And while I can definitely say it hasn't cured my depression; it has helped in managing autistic meltdowns (although I hadn't been diagnosed with ASD at the time I was prescribed the medication).
+\* SSRI: Of all the items in this list, this is the only one which came as a result of meeting with healthcare professionals. And while I can definitely say it hasn't cured my depression; it has helped in managing autistic meltdowns (although I hadn't been diagnosed with ASD at the time I was prescribed the medication).
 
 \** Spirituality: Setting medical diagnoses and explanations aside for a moment, I have always felt rather strongly that at the root of my depression lay some kind of existential or spiritual crisis. I can't know if spiritual practices will ever lead to a resolution -- or if the resolution they might lead to will have any impact on my depression -- but I can't help wondering. At the end of the day, I have to admit I have always had a fascination with this profound dissatisfaction, dis-ease -- in a word, suffering; it seems to point towards something... although I have no idea what. As I mentioned elsewhere, this suffering and the desire to resolve it have endowed certain spiritual paths and practices with a very strong appeal for me. The fact that none of these practices have born fruit has made me weary and skeptical, but the primal attraction I feel has not diminished.
 

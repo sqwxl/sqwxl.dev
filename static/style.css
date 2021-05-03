@@ -1,5 +1,5 @@
 :root {
-  font-size: min(max(1.75em, 6vw), 18px);
+  font-size: min(max(1.2em, 3vw), 21px);
   line-height: 1.2;
   --background-color: #f3f3f3;
   --main-text-color: #242424;
@@ -46,7 +46,7 @@ picture {
 
 /* Structure */
 body>section {
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
   min-height: 12rem;
 }
 
@@ -58,6 +58,10 @@ body>section:last-of-type {
 /* Text */
 p {
   line-height: 1.75;
+}
+
+blockquote {
+  font-style: italic;
 }
 
 .headline {
