@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolas Epstein</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <title>nilueps.net</title>
+  {% block rss %}
+  <link rel="alternate" type="application/atom+xml" title="nilueps.net blog" href="/atom.xml">
+  {% endblock %}
   <!--[if lt IE 9]>
       <script>
         document.createElement("article");
