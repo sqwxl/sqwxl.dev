@@ -1,6 +1,7 @@
 +++
 title = "A First Step"
 date = 2021-03-31
+draft = false
 +++
 About a week ago I was diagnosed with Autism Spectrum Disorder (ASD), Level 1 -- commonly known as 'Asperger's Syndrome'.
 
