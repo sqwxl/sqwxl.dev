@@ -56,6 +56,11 @@ body>section:last-of-type {
 }
 
 /* Text */
+p, blockquote {
+  hyphens: auto;
+  text-align: justify;
+}
+
 p {
   line-height: 1.75;
 }
@@ -68,7 +73,17 @@ blockquote {
   text-align: center;
 }
 
-/* Links */
+/* Navigation */
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline
+}
 
 a {
   color: var(--link-color);
