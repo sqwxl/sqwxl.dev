@@ -23,7 +23,7 @@ I am still working on a proof of concept.
 
 #### nilueps.net
 
-I built this website using a minimal toolset: no framework, just a few files bundled with [parcel](https://parceljs.org). I\'m toying with the idea of writing my own static site generator to allow for easy and consistent content management with zero bloat.
+I built this website using a minimal toolset: no framework, just a few files bundled with [parcel](https://parceljs.org). I'm toying with the idea of writing my own static site generator to allow for easy and consistent content management with zero bloat.
 
 - [source](https://github.com/nilueps/nilueps.net-2.0)
 
