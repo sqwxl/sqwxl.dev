@@ -110,6 +110,7 @@ img {
 }
 #art img {
   display: block;
+  width: auto;
   max-width: 100%;
   max-height: 90vh;
   margin: 20vh auto;
