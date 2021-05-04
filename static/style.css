@@ -104,16 +104,17 @@ a[href*="http"] {
 }
 
 /* Images */
-
-picture {
-  margin: 8rem 0;
-}
-
-picture:first-of-type {
-  margin-top: 2rem;
-}
-
 img {
   width: 100%;
   height: auto;
+}
+#art img {
+  display: block;
+  max-width: 100%;
+  max-height: 90vh;
+  margin: 20vh auto;
+}
+
+#art img:first-of-type {
+  margin-top: 10vh;
 }
