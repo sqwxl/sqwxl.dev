@@ -1,5 +1,6 @@
 +++
 title = "Code"
+template = "code.html"
 +++
 
 I started teaching myself programming when the 2020 pandemic made my
@@ -13,7 +14,21 @@ repositories.
 
 The following include both personal and commissioned works.
 
-#### Sources
+#### Pluralism.xyz
+
+A data collection and visualization project for the artist [Nicolas Grenier](https://nicolasgrenier.com/) which attempts to gain insight into existential issues using novel polling techniques.
+
+- [website](https://pluralism.xyz/)
+- [source](https://github.com/mappingpoll)
+
+
+#### Core
+
+From May to December 2021 I was part of the [Norwegian Refugee Council](https://www.nrc.no/)'s Digital Team and worked on developing their "Core" case management [tool](https://github.com/nrc-no/core) for the humanitarian sector.
+
+- [repo](https://github.com/nrc-no/core)
+
+#### Knowledge Sources
 
 The goal of this project is to provide community-driven tool that attempts to make explicit the relationship between *truth claims* and the respective *evidence* (or lack thereof) which supports them by establishing sets of *socially determined truth criteria*.
 
@@ -23,24 +38,14 @@ I am still working on a proof of concept.
 
 #### nilueps.net
 
-I built this website using a minimal toolset: no framework, just a few files bundled with [parcel](https://parceljs.org). I'm toying with the idea of writing my own static site generator to allow for easy and consistent content management with zero bloat.
+Basic stuff
 
-- [source](https://github.com/nilueps/nilueps.net-2.0)
+- [source](https://github.com/nilueps/nilueps.net)
 
 #### Web Goban
 
 A multiplayer go client in the browser.\
 Still at in the planning phase for now.
-
-- [source](https://github.com/nilueps/web-goban)
-
-#### Mapping Exercise
-
-A data collection and visualization project for the artist [Nicolas Grenier](https://nicolasgrenier.com/) which attempts to gain insight into existential issues using novel polling techniques.
-
-- [visualization](https://pluralism.xyz/)
-- [collection](https://admiring-hypatia-5de9ec.netlify.app/) *work in progress*
-- [source](https://github.com/mappingpoll)
 
 #### Seven Spaces
 

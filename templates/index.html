@@ -1,20 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p class="headline">👋🏻 Hi, my name is Nicolas Lucino Epstein.<br> Welcome to my personal webpage.</p>
+<p class="headline">👋🏻 Hi, my name is Nilas Epstein.<br> Welcome to my personal webpage.</p>
 <nav>
   <ul>
     <li>
       <a href="/blog/">Blog</a>
     </li>
     <li>
-      <a href="#code">Code</a>
+      <a href="/code/">Code</a>
     </li>
     <li>
-      <a href="#art">Art</a>
+      <a href="/art/">Art</a>
     </li>
     <li>
-      <a href="#contact">Contact</a>
+      <a href="/contact/">Contact</a>
     </li>
   </ul>
 </nav>
@@ -29,20 +29,20 @@
   <p style="text-align: right"><a href="/blog/">>>> older posts</a></p>
 </section>
 <hr>
-<section id="code">
-  {% set page = get_page(path="code/index.md") %}
-  <h2>{{ page.title }}</h2>
-  {{ page.content | safe }}
-</section>
-<hr>
-<section id="art">
-  {% set page = get_page(path="art/index.md") %}
-  <h2>{{ page.title }}</h2>
-  {{ page.content | safe }}
-</section>
-<hr>
-<section id="contact">
-  <h2>Contact</h2>
-  <p>nilueps [at] gmail.com</p>
-</section>
+<!-- <section id="code"> -->
+<!--   {% set page = get_page(path="code/index.md") %} -->
+<!--   <h2>{{ page.title }}</h2> -->
+<!--   {{ page.content | safe }} -->
+<!-- </section> -->
+<!-- <hr> -->
+<!-- <section id="art"> -->
+<!--   {% set page = get_page(path="art/index.md") %} -->
+<!--   <h2>{{ page.title }}</h2> -->
+<!--   {{ page.content | safe }} -->
+<!-- </section> -->
+<!-- <hr> -->
+<!-- <section id="contact"> -->
+<!--   <h2>Contact</h2> -->
+<!--   <p>nilueps [at] gmail.com</p> -->
+<!-- </section> -->
 {% endblock content %}

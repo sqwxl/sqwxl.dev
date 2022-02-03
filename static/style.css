@@ -1,3 +1,5 @@
+@import "reset.css";
+
 :root {
   font-size: min(max(1.2em, 3vw), 21px);
   line-height: 1.2;
@@ -8,19 +10,11 @@
   --link-color-visited: rgb(173, 20, 50);
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  /* border-radius: 2px; */
-}
-
 body {
   max-width: 80ch;
   margin: 0 auto;
-  border-left: 1px solid crimson;
-  border-right: 1px solid crimson;
+  /* border-left: 1px solid crimson; */
+  /* border-right: 1px solid crimson; */
   font-family: "Times New Roman", Times, serif;
   padding: 1rem;
   color: var(--main-text-color);
@@ -36,6 +30,10 @@ section,
 figure,
 picture {
   display: block;
+}
+
+header {
+  margin: 1rem 0;
 }
 
 .header-logo {
@@ -56,6 +54,10 @@ body>section:last-of-type {
 }
 
 /* Text */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+}
+  
 p, blockquote {
   hyphens: auto;
   text-align: justify;
@@ -74,6 +76,9 @@ blockquote {
 }
 
 /* Navigation */
+nav {
+  margin: 1rem 0;
+}
 nav > ul {
   list-style-type: none;
   display: flex;
