@@ -28,7 +28,32 @@
   <header>
     <div class="header-logo"><a href="/"><img src="/logo.png" alt="a drawing of a duck"></a></div>
   </header>
-  {% block content %} {% endblock %}
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/code/">Code</a>
+      </li>
+      <li>
+        <a href="/art/">Art</a>
+      </li>
+      <li>
+        <a href="/blog/">Blog</a>
+      </li>
+      <li>
+        <a href="/cv/">CV</a>
+      </li>
+      <li>
+        <a href="/contact/">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <hr>
+  <article>
+    {% block content %} {% endblock %}
+  </article>
 </body>
 
 </html>

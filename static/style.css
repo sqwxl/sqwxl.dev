@@ -1,8 +1,7 @@
 @import "reset.css";
 
 :root {
-  font-size: min(max(1.2em, 3vw), 21px);
-  line-height: 1.2;
+  font-size: 12pt;
   --background-color: #f3f3f3;
   --main-text-color: #242424;
 
@@ -32,7 +31,8 @@ picture {
   display: block;
 }
 
-header {
+nav,
+p {
   margin: 1rem 0;
 }
 
@@ -43,28 +43,29 @@ header {
 }
 
 /* Structure */
-body>section {
+body > article {
   margin-bottom: 3rem;
   min-height: 12rem;
 }
 
-body>section:last-of-type {
-  margin-bottom: 0;
-  min-height: initial;
+hr { /*thinner hr*/
+  border-top: none; 
 }
 
 /* Text */
 h1, h2, h3, h4, h5, h6 {
   margin: 1em 0;
+  line-height: 1;
+}
+
+h1 {
+  text-align: center;
 }
   
 p, blockquote {
   hyphens: auto;
   text-align: justify;
-}
-
-p {
-  line-height: 1.75;
+  margin: 1.5em 0;
 }
 
 blockquote {
@@ -75,10 +76,32 @@ blockquote {
   text-align: center;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #555;
+  color: var(--background-color);
+}
+
+th, td {
+  border: 1px solid var(--main-text-color);
+  padding: 0.25em 1em;
+}
+
+td:nth-child(even) {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
 /* Navigation */
 nav {
-  margin: 1rem 0;
-}
+  margin-bottom: 1rem;
+  }
 nav > ul {
   list-style-type: none;
   display: flex;
@@ -90,13 +113,19 @@ nav > ul > li {
   display: inline
 }
 
+nav a:visited {
+  color: var(--link-color);
+}
+
 a {
   color: var(--link-color);
+  text-decoration: none;
 }
 
 a:visited,
 a:hover {
   color: var(--link-color-visited);
+  text-decoration: underline;
 }
 
 a[href*="http"] {
@@ -109,18 +138,8 @@ a[href*="http"] {
 }
 
 /* Images */
-img {
-  width: 100%;
-  height: auto;
-}
-#art img {
-  display: block;
-  width: auto;
-  max-width: 100%;
+article img {
+  max-width: 90vw;
   max-height: 90vh;
-  margin: 20vh auto;
-}
-
-#art img:first-of-type {
-  margin-top: 10vh;
+  margin-bottom: 20vh;
 }

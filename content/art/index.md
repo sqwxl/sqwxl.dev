@@ -26,5 +26,5 @@ Most of these are oil on canvas, some are on linen.
 
 ### Drawings
 
-[![](images/thumbs/2017-Chasse_Galerie-30x42.png)](/images/2017-Chasse_Galerie-30x42.jpg)
-[![](images/thumbs/2017-Born_Free-30x42.png)](/images/2017-Born_Free-30x42.jpg)
+[![](/images/thumbs/2017-Chasse_Galerie-30x42.png)](/images/2017-Chasse_Galerie-30x42.jpg)
+[![](/images/thumbs/2017-Born_Free-30x42.png)](/images/2017-Born_Free-30x42.jpg)

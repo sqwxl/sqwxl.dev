@@ -2,46 +2,12 @@
 
 {% block content %}
 <p class="headline">👋 Hi, my name is Nicolas Epstein.<br> Welcome to my personal webpage.</p>
-<nav>
-  <ul>
-    <li>
-      <a href="/code/">Code</a>
-    </li>
-    <li>
-      <a href="/art/">Art</a>
-    </li>
-    <li>
-      <a href="/blog/">Blog</a>
-    </li>
-    <li>
-      <a href="/contact/">Contact</a>
-    </li>
-  </ul>
-</nav>
 <hr>
-<section id="blog">
-  <h2>Latest Blog Post</h2>
-  {% set blog = get_section(path="blog/_index.md") %}
-  {% set latest = blog.pages[0] %}
-  <h3>{{ latest.title }}</h3>
-  <em>{{ latest.date }}</em>
-  {{ latest.content | safe }}
-  <p style="text-align: right"><a href="/blog/">>>> older posts</a></p>
-</section>
-<!-- <section id="code"> -->
-<!--   {% set page = get_page(path="code/index.md") %} -->
-<!--   <h2>{{ page.title }}</h2> -->
-<!--   {{ page.content | safe }} -->
-<!-- </section> -->
-<!-- <hr> -->
-<!-- <section id="art"> -->
-<!--   {% set page = get_page(path="art/index.md") %} -->
-<!--   <h2>{{ page.title }}</h2> -->
-<!--   {{ page.content | safe }} -->
-<!-- </section> -->
-<!-- <hr> -->
-<!-- <section id="contact"> -->
-<!--   <h2>Contact</h2> -->
-<!--   <p>nilueps [at] gmail.com</p> -->
-<!-- </section> -->
+<h1>Latest Blog Post</h1>
+{% set blog = get_section(path="blog/_index.md") %}
+{% set latest = blog.pages[0] %}
+<h2>{{ latest.title }}</h2>
+<p><em>{{ latest.date }}</em></p>
+{{ latest.content | safe }}
+<p style="text-align: right"><a href="/blog/">>>> older posts</a></p>
 {% endblock content %}
