@@ -17,12 +17,6 @@ A data collection and visualization project for the artist [Nicolas Grenier](htt
 - [repo](https://github.com/mappingpoll)
 
 
-#### Core
-
-From May to December 2021 I was part of the [Norwegian Refugee Council](https://www.nrc.no/)'s Digital Team and worked on developing their "Core" case management [tool](https://github.com/nrc-no/core) for the humanitarian sector.
-
-- [repo](https://github.com/nrc-no/core)
-
 #### Knowledge Sources
 
 The goal of this project is to provide community-driven tool that attempts to make explicit the relationship between *truth claims* and the respective *evidence* (or lack thereof) which supports them by establishing sets of *socially determined truth criteria*.
