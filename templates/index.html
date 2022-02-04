@@ -1,17 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p class="headline">👋🏻 Hi, my name is Nilas Epstein.<br> Welcome to my personal webpage.</p>
+<p class="headline">👋 Hi, my name is Nicolas Epstein.<br> Welcome to my personal webpage.</p>
 <nav>
   <ul>
-    <li>
-      <a href="/blog/">Blog</a>
-    </li>
     <li>
       <a href="/code/">Code</a>
     </li>
     <li>
       <a href="/art/">Art</a>
+    </li>
+    <li>
+      <a href="/blog/">Blog</a>
     </li>
     <li>
       <a href="/contact/">Contact</a>
@@ -20,7 +20,7 @@
 </nav>
 <hr>
 <section id="blog">
-  <h2>Latest Post</h2>
+  <h2>Latest Blog Post</h2>
   {% set blog = get_section(path="blog/_index.md") %}
   {% set latest = blog.pages[0] %}
   <h3>{{ latest.title }}</h3>
@@ -28,7 +28,6 @@
   {{ latest.content | safe }}
   <p style="text-align: right"><a href="/blog/">>>> older posts</a></p>
 </section>
-<hr>
 <!-- <section id="code"> -->
 <!--   {% set page = get_page(path="code/index.md") %} -->
 <!--   <h2>{{ page.title }}</h2> -->
