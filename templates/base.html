@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nicolas Epstein</title>
-  <link rel="stylesheet" href="/style.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   {% block rss %}
   <link rel="alternate" type="application/atom+xml" title="nilueps.net blog" href="/atom.xml">
   {% endblock %}
+  <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
   <!--[if lt IE 9]>
       <script>
         document.createElement("article");
@@ -26,7 +26,7 @@
 
 <body>
   <header>
-    <div class="header-logo"><a href="/"><img src="/logo.png" alt="a drawing of a duck"></a></div>
+    <div class="header-logo"><a href="/"><img src="/daduck-bw.png" alt="a drawing of a duck"></a></div>
   </header>
   <nav>
     <ul>
@@ -48,12 +48,35 @@
       <li>
         <a href="/contact/">Contact</a>
       </li>
+      <li>
+        <button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+          <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-moon">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg></span>
+          <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-sun">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg></span>
+        </button>
+      </li>
     </ul>
   </nav>
   <hr>
   <article>
     {% block content %} {% endblock %}
   </article>
+  <script type="text/javascript" src="{{ get_url(path="js/main.js") | safe }}" defer></script>
 </body>
 
 </html>

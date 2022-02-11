@@ -1,22 +1,16 @@
-@import "reset.css";
-
 :root {
-  font-size: 12pt;
-  --background-color: #f3f3f3;
-  --main-text-color: #242424;
-
-  --link-color: crimson;
-  --link-color-visited: rgb(173, 20, 50);
+  font-size: $root-font-size;
 }
 
 body {
-  max-width: 80ch;
-  margin: 0 auto;
   /* border-left: 1px solid crimson; */
   /* border-right: 1px solid crimson; */
-  font-family: "Times New Roman", Times, serif;
+  margin: 0 auto;
+  max-width: $body-max-width;
+  font-family: $main-font;
   padding: 1rem;
-  color: var(--main-text-color);
+  background-color: $bg;
+  color: $fg;
 }
 
 /* Ensure HTML5 elements look right in older browsers */
@@ -81,12 +75,12 @@ table {
 }
 
 thead {
-  background-color: #555;
-  color: var(--background-color);
+  background-color: $gray-5;
+  color: $bg;
 }
 
 th, td {
-  border: 1px solid var(--main-text-color);
+  border: 1px solid $fg;
   padding: 0.25em 1em;
 }
 
@@ -110,22 +104,23 @@ nav > ul > li {
 }
 
 nav a:visited {
-  color: var(--link-color);
+  color: $link;
 }
 
 a {
-  color: var(--link-color);
+  color: $link;
   text-decoration: none;
 }
 
 a:visited,
 a:hover {
-  color: var(--link-color-visited);
+  color: $link-visited;
   text-decoration: underline;
 }
 
-a[href*="http"] {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' fill='none' stroke='black' stroke-width='2'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
+a[href*="http"]:after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' fill='none' stroke='#{encodecolor($fg)}' stroke-width='2'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-size: auto 0.75em;
   /* 0.625em 0.625em; */
@@ -141,7 +136,7 @@ a[href*="http"] {
 }
 
 .gallery img {
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: $img-max-width;
+  max-height: $img-max-height;
   margin-bottom: 20vh;
 }
