@@ -3,7 +3,7 @@ title = "Curriculum Vitae"
 template = "cv.html"
 +++
 
-[linkedin](https://www.linkedin.com/in/nilueps/)
+[linkedin](https://www.linkedin.com/in/nilueps/) [github](https://www.github.com/nilueps/)
 
 ## In a nutshell
 I'm a self-taught nerd with laser focus and boundless curiosity.
@@ -11,17 +11,17 @@ I'm a self-taught nerd with laser focus and boundless curiosity.
 ## Programming Skillset
 | Languages  | Proficiency | Libraries & Tools | Proficiency |
 |------------|-------------|-------------------|-------------|
-| HTML       | *****       | node.js           | ****        |
-| Javascript | *****       | react.js          | ****        |
-| CSS        | ****        | jest/mocha        | ****        |
-| Typescript | ****        | git               | ***         |
-| Golang     | ***         | unix/coreutils    | ***         |
-| Python     | ***         | express.js        | ***         |
-| Bash       | ***         | three.js          | ***         |
-| Rust       | **          | d3.js             | ***         |
-| SQL        | **          | MongoDB           | **          |
-|            |             | docker            | **          |
-|            |             | jupyter           | *           |
+| HTML       | ★★★★★       | node.js           | ★★★★        |
+| Javascript | ★★★★★       | react.js          | ★★★★        |
+| CSS        | ★★★★        | jest/mocha        | ★★★★        |
+| Typescript | ★★★★        | git               | ★★★         |
+| Golang     | ★★★         | unix/coreutils    | ★★★         |
+| Python     | ★★★         | express.js        | ★★★         |
+| Bash       | ★★★         | three.js          | ★★★         |
+| Rust       | ★★          | d3.js             | ★★★         |
+| SQL        | ★★          | MongoDB           | ★★          |
+|            |             | docker            | ★★          |
+|            |             | jupyter           | ★           |
 
 ## Professional Experience 
 - __Software developer__, 2021-2022, Remote. Data [collection](https://in20years.pluralism.xyz/) and [visualization](https://www.pluralism.xyz/survey2021) for the artist [Nicolas Grenier](https://www.nicolasgrenier.com/)
@@ -43,12 +43,12 @@ I'm a self-taught nerd with laser focus and boundless curiosity.
 
 | Language   | Written | Spoken |
 |------------|---------|--------|
-| English    | *****   | *****  |
-| French     | *****   | *****  |
-| German     | **      | ****   |
-| Spanish    | **      | ***    |
-| Italian    | *       | **     |
-| Portuguese | *       | **     |
+| English    | ★★★★★   | ★★★★★  |
+| French     | ★★★★★   | ★★★★★  |
+| German     | ★★      | ★★★★   |
+| Spanish    | ★★      | ★★★    |
+| Italian    | ★       | ★★     |
+| Portuguese | ★       | ★★     |
 
 ## Prizes
 
