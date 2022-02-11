@@ -130,7 +130,7 @@ a[href*="http"]:after {
 }
 
 /* Images */
-.gallery> p {
+.gallery > p {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,4 +140,16 @@ a[href*="http"]:after {
   max-width: $img-max-width;
   max-height: $img-max-height;
   margin-bottom: 20vh;
+}
+
+.contact  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 50%;
+  }
 }
