@@ -148,9 +148,6 @@ a[href*="http"]:after {
   flex-direction: column;
   align-items: center;
   img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    height: 300px;
     border-radius: 50%;
   }
 }
