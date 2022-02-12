@@ -12,7 +12,7 @@ I'm a self-taught nerd with laser focus and boundless curiosity.
 | Languages  | Proficiency | Libraries & Tools | Proficiency |
 |------------|-------------|-------------------|-------------|
 | HTML       | ★★★★★       | node.js           | ★★★★        |
-| Javascript | ★★★★★       | react.js          | ★★★★        |
+| Javascript | ★★★★        | react.js          | ★★★★        |
 | CSS        | ★★★★        | jest/mocha        | ★★★★        |
 | Typescript | ★★★★        | git               | ★★★         |
 | Golang     | ★★★         | unix/coreutils    | ★★★         |
