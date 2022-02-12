@@ -74,6 +74,7 @@ blockquote {
 
 table {
   border-collapse: collapse;
+  font-size: 0.8rem;
 }
 
 thead {
@@ -93,11 +94,13 @@ tr:nth-child(even) {
 /* Navigation */
 nav {
   margin-bottom: 1rem;
-  }
+}
+
 nav > ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 0;
 }
 

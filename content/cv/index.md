@@ -9,18 +9,18 @@ template = "cv.html"
 I'm a self-taught nerd with laser focus and boundless curiosity.
 
 ## Programming Skillset
-| Languages  | Proficiency | Libraries & Tools | Proficiency |
+| Language   | Level       | Tool              | Level       |
 |------------|-------------|-------------------|-------------|
 | HTML       | ★★★★★       | node.js           | ★★★★        |
 | Javascript | ★★★★        | react.js          | ★★★★        |
 | CSS        | ★★★★        | jest/mocha        | ★★★★        |
 | Typescript | ★★★★        | git               | ★★★         |
-| Golang     | ★★★         | unix/coreutils    | ★★★         |
+| Go         | ★★★         | unix/coreutils    | ★★★         |
 | Python     | ★★★         | express.js        | ★★★         |
 | Bash       | ★★★         | three.js          | ★★★         |
 | Rust       | ★★          | d3.js             | ★★★         |
-| SQL        | ★★          | MongoDB           | ★★          |
-|            |             | docker            | ★★          |
+| SQL        | ★           | docker            | ★★          |
+|            |             | MongoDB           | ★           |
 |            |             | jupyter           | ★           |
 
 ## Professional Experience 
