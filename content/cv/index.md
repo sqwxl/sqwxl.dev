@@ -5,31 +5,50 @@ template = "cv.html"
 
 [linkedin](https://www.linkedin.com/in/nilueps/) [github](https://www.github.com/nilueps/)
 
-## In a nutshell
-I'm a self-taught nerd with laser focus and boundless curiosity.
 
-## Programming Skillset
-| Language   | Level       | Tool              | Level       |
-|------------|-------------|-------------------|-------------|
-| HTML       | ★★★★★       | node.js           | ★★★★        |
-| Javascript | ★★★★        | react.js          | ★★★★        |
-| CSS        | ★★★★        | jest/mocha        | ★★★★        |
-| Typescript | ★★★★        | git               | ★★★         |
-| Go         | ★★★         | unix/coreutils    | ★★★         |
-| Python     | ★★★         | express.js        | ★★★         |
-| Bash       | ★★★         | three.js          | ★★★         |
-| Rust       | ★★          | d3.js             | ★★★         |
-| SQL        | ★           | docker            | ★★          |
-|            |             | MongoDB           | ★           |
-|            |             | jupyter           | ★           |
+Hi! I'm an experienced software developer with a track record of building complex and successful projects. My passion for coding began over 20 years ago creating interactive animations and generative art.\
+As someone on the autistic spectrum, I excel in problem-solving skills and possess a keen eye for detail, high focus and concentration. Although I do work well in teams, I find that I need alone time to really focus and be productive.\
+In my free time I'm currently pursuing self-directed studies in computer science and programming fundamentals as well as building an 8-bit computer using basic electronic components to deepen my understanding of computer architecture.
+
+
+## Skillset
+
+| Languages             |       | Frameworks   |       | Libraries    |      | Tools      |      |
+|-----------------------|-------|--------------|-------|--------------|------|------------|------|
+| Typescript/Javascript | ★★★★  | FastAPI      | ★★★★  | pydantic     | ★★★★ | git        | ★★★★ |
+| Python                | ★★★★  | react        | ★★★★  | jest         | ★★★  | coreutils  | ★★★★ |
+| CSS                   | ★★★★  | express      | ★★★   | d3.js        | ★★★  | vim        | ★★★★ |
+| Rust                  | ★★★   | MaterialUI   | ★★★★  | react-router | ★★★  | Docker     | ★★★  |
+| Bash                  | ★★★   | bootstrap    | ★★★★  | react-query  | ★★★  | OpenAPI    | ★★★  |
+| Lua                   | ★★    | React Native | ★★    | pytest       | ★★   | Vite       | ★★★  |
+| Go                    | ★★    |              |       | three.js     | ★★   | Redis      | ★★   |
+| C                     | ★     |              |       |              |      | PostgreSQL | ★★   |
+|                       |       |              |       |              |      | MongoDB    | ★★   |
+|                       |       |              |       |              |      | Kubernetes | ★    |
+
 
 ## Professional Experience 
-- __Software developer__, 2021-2022, Remote. Data [collection](https://in20years.pluralism.xyz/) and [visualization](https://www.pluralism.xyz/survey2021) for the artist [Nicolas Grenier](https://www.nicolasgrenier.com/)
-- __Software developer for the Norwegian Refugee Council__, 2021-05-01 to 2021-12-31, Remote. I was part of the [Norwegian Refugee Council](https://www.nrc.no/)'s Digital Team and worked on developing a case management [tool](https://github.com/nrc-no/core) for the humanitarian sector.
-- __Software developer__, 2021, Remote. Data [visualization](https://www.pluralism.xyz/survey2019-2020) for the artist [Nicolas Grenier](https://nicolasgrenier.com/)
-- __Housing rights and social services volunteer-advisor__, 2019-2020, Montreal, [Project Genesis](https://genese.qc.ca/)
-- __Visual artist & art instructor__, 2013-2020, Leipzig, Germany
-- __Various oddjobs (waiter, cook, bike messenger, house painter...)__, 2000-2018, QC
+
+### __Full Stack Developer__ · [Auticon Canada](https://auticon.com/ca-en/), 2022-Present, Montreal
+
+* Developed and maintained an in-house web application for Croix Bleue du Québec's developers to rapidly query and interact with their repositories' CI/CD pipelines and Kubernetes clusters.
+* Python, FastAPI, Redis, OpenAPI, Typescript, React, react-router
+
+
+### __Full Stack Developer__ · private contracts, 2021-2022, remote
+
+* Created novel survey and data visualization applications: [pluralism.xyz](https://pluralism.xyz/)
+* Node, Express, D3.js, Three.js, Rust, PostgreSQL, esbuild, Typescript, preact, SCSS
+
+### __Software Developer__ · [Norwegian Refugee Council](https://www.nrc.no/), 2021, remote
+
+* Collaborated on a case management [tool](https://github.com/nrc-no/core) for the humanitarian sector.
+* Go, Typescript, React, Jest, Cypress, React Native
+
+### __Housing rights and social services volunteer-advisor__ · [Project Genesis](https://genese.qc.ca/), 2019-2020, Montreal
+
+### __Visual artist & art instructor__ · 2013-2020, Leipzig, Germany
+
 
 ## Education
 - __Harvard CS50__, 2020, self-directed computer science course

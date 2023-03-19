@@ -1,6 +1,6 @@
 /* Colors */
 $bg: #f3f3f3;
-$fg: #242424;
+$fg: #282828;
 $link: crimson;
 $link-visited: rgb(173, 20, 50);
 
@@ -14,6 +14,8 @@ $body-max-width: 80ch;
 $img-max-width: 90vw;
 $img-max-height: 90vh;
 
-/* Fonts */
-$root-font-size: 12pt;
-$main-font: "Times New Roman", Times, serif;
+/* Fonts https://github.com/system-fonts/modern-font-stacks */
+$root-font-size: 14pt;
+// $main-font: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+$main-font: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
+$code-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
