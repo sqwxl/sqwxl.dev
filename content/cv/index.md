@@ -13,19 +13,18 @@ In my free time I'm currently pursuing self-directed studies in computer science
 
 ## Skillset
 
-| Languages             |       | Frameworks   |       | Libraries    |      | Tools      |      |
-|-----------------------|-------|--------------|-------|--------------|------|------------|------|
-| Typescript/Javascript | ★★★★  | FastAPI      | ★★★★  | pydantic     | ★★★★ | git        | ★★★★ |
-| Python                | ★★★★  | react        | ★★★★  | jest         | ★★★  | coreutils  | ★★★★ |
-| CSS                   | ★★★★  | express      | ★★★   | d3.js        | ★★★  | vim        | ★★★★ |
-| Rust                  | ★★★   | MaterialUI   | ★★★★  | react-router | ★★★  | Docker     | ★★★  |
-| Bash                  | ★★★   | bootstrap    | ★★★★  | react-query  | ★★★  | OpenAPI    | ★★★  |
-| Lua                   | ★★    | React Native | ★★    | pytest       | ★★   | Vite       | ★★★  |
-| Go                    | ★★    |              |       | three.js     | ★★   | Redis      | ★★   |
-| C                     | ★     |              |       |              |      | PostgreSQL | ★★   |
-|                       |       |              |       |              |      | MongoDB    | ★★   |
-|                       |       |              |       |              |      | Kubernetes | ★    |
-
+| Languages   |       | Frameworks   |       | Libraries    |      | Tools      |      |
+|-------------|-------|--------------|-------|--------------|------|------------|------|
+| Typescript  | ★★★★  | FastAPI      | ★★★★  | pydantic     | ★★★★ | git        | ★★★★ |
+| Python      | ★★★★  | React        | ★★★★  | jest         | ★★★  | coreutils  | ★★★★ |
+| Rust        | ★★★   | Express      | ★★★   | d3.js        | ★★★  | Docker     | ★★★  |
+| Bash        | ★★★   | MaterialUI   | ★★★★  | react-router | ★★★  | Node.js    | ★★★  |
+| CSS         | ★★★★  | Bootstrap    | ★★★★  | react-query  | ★★★  | Vite       | ★★★  |
+| HTML        | ★★★★★ | React Native | ★★    | pytest       | ★★   | OpenAPI    | ★★★  |
+| Lua         | ★★    |              |       | three.js     | ★★   | Redis      | ★★   |
+| Go          | ★★    |              |       |              |      | PostgreSQL | ★★   |
+| C           | ★     |              |       |              |      | MongoDB    | ★★   |
+|             |       |              |       |              |      | Kubernetes | ★    |
 
 ## Professional Experience 
 
@@ -37,7 +36,7 @@ In my free time I'm currently pursuing self-directed studies in computer science
 
 ### __Full Stack Developer__ · private contracts, 2021-2022, remote
 
-* Created novel survey and data visualization applications: [pluralism.xyz](https://pluralism.xyz/)
+* Created novel survey applications that collect answers from hundreds of participants and use original data visualization solutions to present the results: [pluralism.xyz](https://pluralism.xyz/)
 * Node, Express, D3.js, Three.js, Rust, PostgreSQL, esbuild, Typescript, preact, SCSS
 
 ### __Software Developer__ · [Norwegian Refugee Council](https://www.nrc.no/), 2021, remote
@@ -51,12 +50,14 @@ In my free time I'm currently pursuing self-directed studies in computer science
 
 
 ## Education
+
 - __Harvard CS50__, 2020, self-directed computer science course
 - __freecodecamp.com__, 2020, self-directed programming course
 - __Florence Classical Arts Academy__, 2014-2015, Florence Italy
 - __BFA Painting & Drawing (1/2)__, 2013-2014, Concordia University, Montreal
 - __BA Philosophy (3/4)__, 2009-2011, Université de Sherbrooke / Université de Montréal
 - __DEC Natural Sciences__, 2007-2009, CEGEP de Sherbrooke
+
 
 ## Languages
 

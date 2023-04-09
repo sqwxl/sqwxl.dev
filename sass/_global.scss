@@ -156,10 +156,13 @@ a[href*="http"]:after {
   }
 }
 
+code, pre {
+  font-family: $code-font;
+}
+
 pre {
   padding: .5rem;
   overflow: auto;
-  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   font-size: .8rem;
   border-radius: .5rem;
 }
