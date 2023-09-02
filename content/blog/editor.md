@@ -20,10 +20,6 @@ I've been teaching myself Rust for some months now, but I've yet to apply what I
 
 ## Application design
 
-I'll try to keep the code modular as far as it makes sense; this will help keep the codebase clean and understandable and make it easier to add new features in the future.
-
-I'll try to keep library dependencies to a minimum where the core application code is concerned; just to dig into the standard library some more.
-
 At a minimum, our project will need to have the following modules in order to meet the requirements:
 
 * Some kind of text buffer
@@ -327,7 +323,7 @@ fn draw(&mut self) {
     }
 ```
 
-OK, cool! Now I can open files and they show up reasonably well, but editing is still rather limited as the following recording shows. 
+OK, cool! Now I can open files and they show up QK, but editing is still rather limited as the following recording shows. 
 
 ![](/images/edythe_recording_1.gif)
 
