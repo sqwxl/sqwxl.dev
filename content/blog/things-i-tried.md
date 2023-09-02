@@ -1,7 +1,7 @@
 +++
 title = "All the Things I Tried In Order to Treat my Depression"
 date = 2021-05-02
-draft = false
+draft = true
 +++
 
 I'm 33 and I've been depressed since my teens. I don't mean I've been in a constant state of feeling depressed during all those years, there have been ups and down. Heck, it's probably safe to say that, excluding sleep hours, I've probably spent more of that time feeling "OK" than time feeling like a flaming pile of turds. The reason I say I've been depressed since my teens, then, is that even in the periods when I'm "OK", I generally feel pretty "meh" and I generally don't get much enjoyment out of things. As I was explaining to my partner the other day, it's as though magic and wonder have disappeared from my life.

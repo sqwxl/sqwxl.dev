@@ -1,6 +1,7 @@
 +++
 title = "Returning to an Old Path"
 date = 2021-04-30
+draft = true
 +++
 I went through a drawn out phase in my twenties in which I was very depressed. It was an existential crisis in many ways. In an effort to heal, I got really into spiritual teachings of various stripes. I hoped I could find solace and perhaps some clearer insight into what the hell was going on. I was also really skeptical of organized religions and cults and so never engaged in anything formal for too long, never had a teacher, I just tried all kinds of different approaches, mostly meditation. I floundered.
 
