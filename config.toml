@@ -14,6 +14,7 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+
 ignored_content = ["*.backup"]
 
 [markdown]
@@ -24,7 +25,9 @@ highlight_theme_css = [
   { theme = "gruvbox-light", filename = "syntax-theme-light.css" }
 ]
 
-# external_links_target_blank = true
+external_links_target_blank = true
+external_links_no_referrer = true
+
 smart_punctuation = true
 
 
