@@ -323,7 +323,7 @@ fn draw(&mut self) {
     }
 ```
 
-OK, cool! Now I can open files and they show up QK, but editing is still rather limited as the following recording shows. 
+OK, cool! Now I can open files and they show up OK, but editing is still rather limited as the following recording shows. 
 
 ![](/images/edythe_recording_1.gif)
 
