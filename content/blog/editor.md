@@ -1,11 +1,12 @@
 +++
-title = "Writing a text editor in Rust - Part 1"
+title = "Writing a Text Editor in Rust - Part 1"
 date = 2023-09-02
 +++
 
 n.b.: all the code for this project can be found [here](https://github.com/nilueps/edythe)
 
-I've been teaching myself Rust for some months now, but I've yet to apply what I've learned to anything "big". I think writing a text editor in Rust could be a good way both to apply what I already know, as well as broaden my knowledge. I'll keep things "simple": a basic command line text editor that can edit one file at a time.
+I've been teaching myself Rust for some months now, but I've yet to apply what I've learned to anything "big". I think writing a text editor in Rust could be a good way both to put my new skills to the test, as well as broaden my knowledge.\
+I'll keep things "simple": a basic command line text editor that can edit one file at a time.
 
 ## Requirements
 
@@ -58,8 +59,8 @@ cargo new edythe
 
 I'm calling it `edythe`; it was my grandmother's name, and it sounds a bit like "edit".
 
-I'd like to get something I can play with as soon as possible so let's start by getting our app to the contents of a file.\
-I'm using `[clap](https://crates.io/crates/clap)` to parse the command line arguments. I'll be using some convenience libraries where it makes sense, but I'll try to stick to the standard library for the core application code; just so I familiarize myself with it more.
+I'd like to get something I can play with as soon as possible so let's start by getting our app to display the contents of a file.\
+I'm using [`clap`](https://crates.io/crates/clap) to parse the command line arguments. I'll be using some convenience libraries where it makes sense, but I'll try to stick to the standard library for the core application code; mostly as an excuse to familiarize myself with it more.
 
 
 ```rust
@@ -89,7 +90,7 @@ fn main() {
 
 We can now run `cargo run --quiet src/main.rs` and our program will print itself! But it's just static text; it gets dumped to stdout and the process immediately exits. In order to make it editable, we need to do a couple things.
 1. `println!` won't be enough. We need to have some way to "draw" to the terminal.
-    - This is actually complex enough that it warrants reaching for another crate. We'll use `[crossterm](https://crates.io/crates/crossterm)` because it's popular, well documented and tested on numerous terminal emulators.
+    - This is actually complex enough that it warrants reaching for another crate. We'll use [`crossterm`](https://crates.io/crates/crossterm) because it's popular, well documented and tested on numerous terminal emulators.
 1. We don't want the program to exit right away. We need to implement a looping construct where we listen for keystrokes and go through the steps outlined above.
     - `crossterm` has an `Event` module which will be perfect for this.
 1. The content of the file should be stored somewhere so that we can edit it.
