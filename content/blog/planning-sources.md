@@ -14,7 +14,7 @@ Going beyond a single historical event, I picture a potentially universally usef
 
 The broad strokes of this idea have been bouncing around in the back of my head ever since it germinated there, but I have yet to set down the foundations needed to actually make the vision a reality. I'm not a philosopher, and I don't know much about epistemology. For all I know, there may be a giant flaw in my idea which makes it unfeasible. I think part of the reason I haven't built anything yet is that I have the feeling that this will be a massive undertaking and I'm just not sure where to start. I'm not the type of person to take notes or make mind-maps, but I'm tempted to do so for this project.
 
-I've tentatively called this project "Sources" and opened up a [repo](https://github.com/nilueps/sources) to house the code and a kanban style project page as a sort of roadmap. I think my next step should be to actually sit down and map out exactly what the various minimal elements are required to make a proof-of-concept. Once I have that nailed down, I think I could make some application design decisions and get started on a prototype.
+I've tentatively called this project "Sources" and opened up a [repo](https://github.com/sqwxl/sources) to house the code and a kanban style project page as a sort of roadmap. I think my next step should be to actually sit down and map out exactly what the various minimal elements are required to make a proof-of-concept. Once I have that nailed down, I think I could make some application design decisions and get started on a prototype.
 
 Stay tuned for more :)
 

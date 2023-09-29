@@ -3,7 +3,7 @@ title = "Writing a Text Editor in Rust - Part 1"
 date = 2023-09-02
 +++
 
-n.b.: all the code for this project can be found [here](https://github.com/nilueps/edythe)
+n.b.: all the code for this project can be found [here](https://github.com/sqwxl/edythe)
 
 I've been teaching myself Rust for some months now, but I've yet to apply what I've learned to anything "big". I think writing a text editor in Rust could be a good way both to put my new skills to the test, as well as broaden my knowledge.\
 I'll keep things "simple": a basic command line text editor that can edit one file at a time.
