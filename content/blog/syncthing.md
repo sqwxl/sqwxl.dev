@@ -91,7 +91,7 @@ The rest of settings can stay on their defaults.
 
 ## Setting up your other devices
 
-Installing Syncthing is pretty trivial on most other platforms. Take a look at their excellent (website)[https://syncthing.net/downloads/] for guidance./
+Installing Syncthing is pretty trivial on most other platforms. Take a look at their excellent [website](https://syncthing.net/downloads/) for guidance./
 Regardless of your platform, the process of introducing new devices to your network should be the same: once Syncthing is running on a device, and assuming that device has access to the same network as your Pi, open the web interface for your Pi and your device side-by-side (i.e. localhost:8384 and <Pi address>:8384). After a while you should see the Pi appear in the list of "Remote Devices" on the web interface for your new device, and vice versa. From there you can follow the prompts to connect the two. By default the "Default Folder" will be shared, but if you have more folders you want to set up, it's relatively easy to set up.
 
 While it's possible to have every device connect with every other device, I've found that that adds a lot of needless complexity. As I mentioned at the start, I've found it best to only connect each device to the Pi.
