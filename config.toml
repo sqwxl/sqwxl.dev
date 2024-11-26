@@ -6,7 +6,7 @@ description = "Personal website of Nicolas Lucino Epstein"
 
 default_language = "en"
 
-generate_feed = true
+generate_feeds = false
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
